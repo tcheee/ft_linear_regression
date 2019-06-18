@@ -10,10 +10,10 @@ K_raw = data["km"].values
 try:
    miles = int(mileage)
    if (miles < 0): 
-      print("Please, enter a valid mileage if you want the algorithm to work ...")
+      print("Please, enter a valid mileage if you want the algorithm to work...")
       exit()
 except ValueError:
-   print("Please, enter a valid mileage if you want the algorithm to work ...")
+   print("Please, enter a valid mileage if you want the algorithm to work...")
    exit()
 
 try:
